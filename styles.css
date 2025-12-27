@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(background-image-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    height: 700px;
+    width: 700px;
+}
+
+.logo {
+    width: 700px;
+    height: 700px;
+}
+
+.enter-button{
+    position: absolute;
+    margin-top: 450px;
+    padding: 7px 150px;
+    font-size: 18px;
+    font-family: "Lexend";
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    background-color: #FCFCFC;
+    box-shadow: 1px 5px 5px rgb(127, 115, 95);
+    color: rgba(66, 50, 22, 1);
+}
+
