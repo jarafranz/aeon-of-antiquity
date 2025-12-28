@@ -149,3 +149,18 @@ ul li a:hover {
   border-radius: 40px;
   color: #f9e5a3;
 }
+
+.card img{
+  height: 300px;
+  flex: 0 0 30%;   /* each card takes ~30% of container width */
+  text-align: center;
+}
+
+.collections{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;       /* allows items to move to the next row */
+  gap: 20px;             /* space between cards */
+  justify-content: center; /* optional: center the grid */
+  padding: 20px;
+}
