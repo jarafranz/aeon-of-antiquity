@@ -1,19 +1,21 @@
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url(background-image-2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-family: "EB Garamond";
+  margin: 0;
+  font-family: "EB Garamond";
+  background-image: url(background-image-2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
