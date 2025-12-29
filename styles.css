@@ -88,3 +88,56 @@ ul li a:hover {
 .logo-1 {
   height: 15px;
 }
+
+header {
+  margin: 100px;
+}
+
+h3 {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(132, 103, 52);
+  background-color: #E8DCD1;
+  box-shadow: 1px 5px 5px rgb(127, 115, 95);
+  padding: 5px;
+  border-radius: 40px
+}
+
+.image-container {
+  position: relative;
+  bottom: 30px;
+}
+
+.artwork {
+  position: absolute;
+  top: auto;
+  right: 1200px;
+}
+
+.author {
+  margin: 0;
+  font-size: 0.95rem;
+  font-style: italic;
+  padding: 5px 20px;
+  background-color: rgb(132, 103, 52);
+  box-shadow: 1px 5px 5px rgb(127, 115, 95);  
+  border-radius: 40px;
+  color: #f9e5a3;
+  text-align: center;
+}
+
+.description {
+  position: absolute;
+  top: -15px;      
+  left: 420px;     
+  width: 1000px;
+  background-color: #efe7dc;
+  box-shadow: 1px 5px 5px rgb(127, 115, 95);
+  padding: 20px;
+  border-radius: 40px;
+  text-align: justify;
+  line-height: 1.6;
+  color: #423216;
+  text-shadow: -1px 0 #efe7dc, 0 1px #efe7dc, 1px 0 #efe7dc, 0 -1px #efe7dc;
+}
