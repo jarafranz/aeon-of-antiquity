@@ -150,17 +150,49 @@ ul li a:hover {
   color: #f9e5a3;
 }
 
+.card {
+  transition: transform 0.3s ease;
+}
+
 .card img{
-  height: 300px;
-  flex: 0 0 30%;   /* each card takes ~30% of container width */
+  height: 270px;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-style: italic;
+  padding: 5px 20px;
+  background-color: rgb(132, 103, 52);
+  box-shadow: 1px 5px 5px rgb(127, 115, 95);  
+  border-radius: 40px;
+  color: #f9e5a3;
   text-align: center;
 }
 
 .collections{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;       /* allows items to move to the next row */
-  gap: 20px;             /* space between cards */
-  justify-content: center; /* optional: center the grid */
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 30px; /* space between images */
+  padding: 40px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.collections-title {
+  font-size: 30px;
+  margin: 0;
+  color: rgb(132, 103, 52);
+  background-color: #E8DCD1;
+  box-shadow: 1px 5px 5px rgb(127, 115, 95);
+  padding: 10px 40px;
+  border-radius: 40px;
+  text-align: center;
+  width: fit-content;      /* shrink to content width so auto margin works */
+  grid-column: 1 / -1; 
 }
